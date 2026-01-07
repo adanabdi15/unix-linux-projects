@@ -1,0 +1,132 @@
+#!/bin/bash
+
+echo "Welcome to the Fast Food Ordering App!"
+
+# Defining Menu and Prices
+declare -A prices=(
+    ["Dips and Chips"]=300
+    ["Chicken Fries"]=300
+    ["Bavarian Pretzel Sticks"]=400
+    ["Pepperoni Pizza Sticks"]=400
+    ["Mac & Cheese Bites"]=400
+    ["Pretzel Hot Dogs"]=500
+    ["Mozzarella Sticks"]=500
+    ["Spinach & Artichoke Dip"]=500
+    ["Single Cone/Cup"]=250
+    ["Double Cone/Cup"]=350
+    ["Sundae"]=400
+    ["Signature Desserts"]=500
+    ["Small Soda"]=100
+    ["Soda to Go"]=150
+    ["Large Soda"]=200
+    ["Soda Float"]=350
+    ["Milkshake/Smoothie"]=475
+)
+
+# Function to Process Order
+process_order() {
+    local item=$1
+    local quantity=$2
+    local price=$(( prices["$item"] * quantity ))
+    echo "$item x$quantity: \$$(( price / 100 )).$(( price % 100 ))" >> "${CUSTOMERNAME}.txt"
+    echo "Added $quantity x $item to your order."
+    TOTAL=$(( TOTAL + price ))
+}
+
+# Initialize Total
+TOTAL=0
+
+# Get Customer Name
+echo -e "Enter your name: \c"
+read CUSTOMERNAME
+touch "${CUSTOMERNAME}.txt"
+
+while true; do
+    echo "Menu Categories:"
+    echo "1. Appetizers"
+    echo "2. Ice Cream & Desserts"
+    echo "3. Beverages"
+    echo "4. Finish Order"
+    echo -e "Choose a category (1-4): \c"
+    read CATEGORY
+
+    case $CATEGORY in
+        1)
+            echo "Appetizers Menu:"
+            echo "1. Dips and Chips - $ 3.00"
+            echo "2. Chicken Fries - $ 3.00"
+            echo "3. Bavarian Pretzel Sticks - $ 4.00"
+            echo "4. Pepperoni Pizza Sticks - $ 4.00"
+            echo "5. Mac & Cheese Bites - $ 4.00"
+            echo "6. Pretzel Hot Dogs - $ 5.00"
+            echo "7. Mozzarella Sticks - $ 5.00"
+            echo "8. Spinach & Artichoke Dip - $ 5.00"
+            echo -e "Select an appetizer (1-8): \c"
+            read ITEM
+            echo -e "Enter quantity: \c"
+            read QUANTITY
+            case $ITEM in
+                1) process_order "Dips and Chips" $QUANTITY ;;
+                2) process_order "Chicken Fries" $QUANTITY ;;
+                3) process_order "Bavarian Pretzel Sticks" $QUANTITY ;;
+                4) process_order "Pepperoni Pizza Sticks" $QUANTITY ;;
+                5) process_order "Mac & Cheese Bites" $QUANTITY ;;
+                6) process_order "Pretzel Hot Dogs" $QUANTITY ;;
+                7) process_order "Mozzarella Sticks" $QUANTITY ;;
+                8) process_order "Spinach & Artichoke Dip" $QUANTITY ;;
+            esac
+            ;;
+        2)
+            echo "Ice Cream & Desserts Menu:"
+            echo "1. Single Cone/Cup - $ 2.50"
+            echo "2. Double Cone/Cup - $ 3.50"
+            echo "3. Sundae - $ 4.00"
+            echo "4. Signature Desserts - $ 5.00"
+            echo -e "Select a dessert (1-4): \c"
+            read ITEM
+            echo -e "Enter quantity: \c"
+            read QUANTITY
+            case $ITEM in
+                1) process_order "Single Cone/Cup" $QUANTITY ;;
+                2) process_order "Double Cone/Cup" $QUANTITY ;;
+                3) process_order "Sundae" $QUANTITY ;;
+                4) process_order "Signature Desserts" $QUANTITY ;;
+            esac
+            ;;
+        3)
+            echo "Beverages Menu:"
+            echo "1. Small Soda - $ 1.00"
+            echo "2. Soda to Go - $ 1.50"
+            echo "3. Large Soda - $ 2.00"
+            echo "4. Soda Float - $ 3.50"
+            echo "5. Milkshake/Smoothie - $ 4.75"
+            echo -e "Select a beverage (1-5): \c"
+            read ITEM
+            echo -e "Enter quantity: \c"
+            read QUANTITY
+            case $ITEM in
+                1) process_order "Small Soda" $QUANTITY ;;
+                2) process_order "Soda to Go" $QUANTITY ;;
+                3) process_order "Large Soda" $QUANTITY ;;
+                4) process_order "Soda Float" $QUANTITY ;;
+                5) process_order "Milkshake/Smoothie" $QUANTITY ;;
+            esac
+            ;;
+        4)
+            echo -e "\nOrder Summary for $CUSTOMERNAME:"
+            cat "${CUSTOMERNAME}.txt"
+            if [ $TOTAL -ge 2000 ]; then
+                DISCOUNT=$(( TOTAL / 10 ))
+                TOTAL=$(( TOTAL - DISCOUNT ))
+                echo "Discount Applied: 10%"
+            else
+                echo "No Discount Applied."
+            fi
+            printf "Total: \$%d.%02d\n" $(( TOTAL / 100 )) $(( TOTAL % 100 ))
+            break
+            ;;
+        *)
+            echo "Invalid choice. Please try again."
+            ;;
+    esac
+done

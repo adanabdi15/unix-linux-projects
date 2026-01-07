@@ -1,0 +1,65 @@
+#!/bin/bash
+echo "+++++ QUIZLET ++++++"
+echo -e "Type your name -->\c"
+read QUIZOWNER
+touch $QUIZOWNER.txt
+
+echo "Begin your quiz $QUIZOWNER..."
+echo "+++++++++++++++++++++++++++++++"
+
+echo -e "QUESTION #1: \nThe sky is __________
+1. Green \n2. Blue \n3. Yellow \n4. Black
+Enter answer -->\c"
+read QUESTION1
+
+	while
+	[[
+	$QUESTION1 != 2 ##this condition must be met
+	]]
+	do #if the condition is not met, continue to do the following statement forever 
+
+echo -e "Incorrect! Try again."
+echo -e "Question #1: \nThe sky is ________
+1. Green \n2. Blue \n3. Yellow \n4. Black 
+Enter answer-->\c"
+read QUESTION1
+
+	done #exit when condition is met
+
+echo "Awesome!"
+QUESTION1=1
+echo "Question 1: $QUESTION1" >> $QUIZOWNER.txt
+
+echo "+++++++++++++++++++++++++++++++++++++++"
+
+echo -e "Question #2: \n4 x 3 is ________
+1. 43 \n2. 34 \n3. 12 \n4. 21
+Enter answer--->\c"
+read QUESTION2
+	
+	while
+        [[
+        $QUESTION2 != 3 ##this condition must be met
+        ]]
+        do #if the condition is not met, continue to do the following statement forever
+
+echo -e "Incorrect! Try again."
+echo -e "Question #2: \n4 x 3 is ________
+1. 43 \n2. 34 \n3. 12 \n4. 21
+Enter answer--->\c"
+read QUESTION2
+
+		done
+
+echo "Awesome!"
+Question2=1
+echo "Question 2: $QUESTION2" >> $QUIZOWNER.txt
+
+echo "+++++++++++++++++++++++++++++++++++++++"
+
+
+
+Total=$(( $QUESTION1+$QUESTION2 ))
+echo "Here are your correct answers:"
+cat $QUIZOWNER.txt
+echo "Total: $Total points." 

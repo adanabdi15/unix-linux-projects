@@ -1,0 +1,38 @@
+Script started on 2023-10-04 17:12:31-04:00 [TERM="xterm-256color" TTY="/dev/pts/70" COLUMNS="80" LINES="24"]
+aa001@pe15:~$ mv typescript project3-6
+aa001@pe15:~$ pwd
+/home/aa001
+aa001@pe15:~$ ls
+#3 files name sample 
+#when putting ls* nothing happens and it gives you an error because it not a recognized command. 
+#To show us what's in our directory. 
+abdi		       Cash.txt			    Projecttypescript104
+adam		       golf.txt			    RootFolder
+AfricanKing	       it110			    sample1
+AfricanKinginfo        it114			    sample2
+Africa.txt	       it244			    sample3
+assignment1.txt        messi			    sex.txt
+Assignment3typescript  messi.txt		    soccerf.txt
+BostonCeltics	       PersonalFileStructurescript  TEXAS
+BostonCelticsScript    Project3-5		    TEXAS2
+Cashfolder	       project3-6		    yes
+aa001@pe15:~$ ls sample
+ls: cannot access 'sample': No such file or directory
+aa001@pe15:~$ ls sample??
+ls: cannot access 'sample??': No such file or directory
+aa001@pe15:~$ ls sample{[K[13]
+#ls sample[13] pinpoints anything that has sample or 1 or 3 
+sample1  sample3
+# when putting ls sample?? Nothing happens because its not a recognized command.
+aa001@pe15:~$ ls sample{[K[1-3]
+sample1  sample2  sample3
+# 3 files named sample [1-3] show up because ls pinpoints anything that has sample with 1 2 3 {1-3}
+aa001@pe15:~$ ls sample [K[!1-2[K3]
+ls: cannot access 'sample[!1-3]': No such file or directory
+aa001@pe15:~$ ls sample[!1-3}[K]
+ls: cannot access 'sample[!1-3]': No such file or directory
+
+aa001@pe15:~$ exit 
+exit
+
+Script done on 2023-10-04 17:15:31-04:00 [COMMAND_EXIT_CODE="2"]

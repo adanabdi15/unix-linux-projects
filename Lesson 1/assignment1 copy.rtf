@@ -1,0 +1,168 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2708
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 Last login: Wed Sep 13 00:36:58 on ttys000\
+adam@Adams-MacBook-Pro ~ % ssh aa001@users.cs.umb.edu\
+aa001@users.cs.umb.edu's password: \
+Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.4.0-125-generic x86_64)\
+\
+  System information as of Wed 13 Sep 2023 01:52:17 AM EDT\
+\
+  System load:  1.04                Temperature:           48.0 C\
+  Usage of /:   24.2% of 195.80GB   Processes:             583\
+  Memory usage: 6%                  Users logged in:       9\
+  Swap usage:   0%                  IPv4 address for eno1: 158.121.104.215\
+\
+Contact: operator@cs.umb.edu \
+Last login: Wed Sep 13 00:37:35 2023 from 24.91.149.181\
+aa001@pe15:~$ ls\
+AfricanKing	 Africa.txt  Cash.txt  it114  TEXAS\
+AfricanKinginfo  Cashfolder  it110     it244\
+aa001@pe15:~$ cd\
+aa001@pe15:~$ cd TEXAS\
+aa001@pe15:~/TEXAS$ touch sports.txt\
+aa001@pe15:~/TEXAS$ ls\
+sports.txt\
+aa001@pe15:~/TEXAS$ touch info.txt\
+aa001@pe15:~/TEXAS$ ls\
+info.txt  sports.txt\
+aa001@pe15:~/TEXAS$ vi sports.txt \
+aa001@pe15:~/TEXAS$ vi sports.txt \
+aa001@pe15:~/TEXAS$ vi cats sports.txt\
+2 files to edit\
+aa001@pe15:~/TEXAS$ cats sports.txt\
+\
+Command 'cats' not found, did you mean:\
+\
+  command 'bats' from deb bats (1.1.0+git104-g1c83a1b-1)\
+  command 'cat' from deb coreutils (8.30-3ubuntu2)\
+  command 'sats' from deb mpdtoys (0.25.0)\
+\
+Try: apt install <deb name>\
+\
+aa001@pe15:~/TEXAS$ cat sports.txt\
+Sports teams in Texas:\
+Dallas Cowboys (NFL Football) \
+NBA:\
+NHL:\
+NFL:\
+aa001@pe15:~/TEXAS$ ls\
+cats  info.txt	sports.txt\
+aa001@pe15:~/TEXAS$ vi info.txt\
+aa001@pe15:~/TEXAS$ cat info.txt\
+The Capital of Texas is Houston! Yay!\
+aa001@pe15:~/TEXAS$ mkdir FOODS\
+aa001@pe15:~/TEXAS$ ls\
+cats  FOODS  info.txt  sports.txt\
+aa001@pe15:~/TEXAS$ ls -l\
+total 12\
+-rw-r--r-- 1 aa001 ugrad    0 Sep 13 02:04 cats\
+drwxr-xr-x 2 aa001 ugrad 4096 Sep 13 02:08 FOODS\
+-rw-r--r-- 1 aa001 ugrad   38 Sep 13 02:07 info.txt\
+-rw-r--r-- 1 aa001 ugrad   69 Sep 13 02:03 sports.txt\
+aa001@pe15:~/TEXAS$ \
+aa001@pe15:~/TEXAS$ ls\
+cats  FOODS  info.txt  sports.txt\
+aa001@pe15:~/TEXAS$ cd FOODS\
+aa001@pe15:~/TEXAS/FOODS$ touch texas_foods.txt\
+aa001@pe15:~/TEXAS/FOODS$ ls\
+texas_foods.txt\
+aa001@pe15:~/TEXAS/FOODS$ vi texas_foods.txt\
+aa001@pe15:~/TEXAS/FOODS$ cat texas_foods.txt\
+Types of foods in Texas:\
+1. Pizza\
+2. Fries\
+3. Burgers \
+4. Salads\
+5. Soda \
+\
+aa001@pe15:~/TEXAS/FOODS$ pwd\
+/home/aa001/TEXAS/FOODS\
+aa001@pe15:~/TEXAS/FOODS$ cd ..\
+aa001@pe15:~/TEXAS$ ls\
+cats  FOODS  info.txt  sports.txt\
+aa001@pe15:~/TEXAS$ cd ..\
+aa001@pe15:~$ pwd\
+/home/aa001\
+aa001@pe15:~$ ls\
+AfricanKing	 Africa.txt  Cash.txt  it114  TEXAS\
+AfricanKinginfo  Cashfolder  it110     it244\
+aa001@pe15:~$ cd TEXAS/FOODS/texas_foods.txt\
+-bash: cd: TEXAS/FOODS/texas_foods.txt: Not a directory\
+aa001@pe15:~$ cd TEXAS\
+aa001@pe15:~/TEXAS$ ls\
+cats  FOODS  info.txt  sports.txt\
+aa001@pe15:~/TEXAS$ cd FOODS\
+aa001@pe15:~/TEXAS/FOODS$ ls\
+texas_foods.txt\
+aa001@pe15:~/TEXAS/FOODS$ cd\
+aa001@pe15:~$ pwd\
+/home/aa001\
+aa001@pe15:~$ cat TEXAS/FOODS/texas_foods.txt\
+Types of foods in Texas:\
+1. Pizza\
+2. Fries\
+3. Burgers \
+4. Salads\
+5. Soda \
+\
+aa001@pe15:~$ pwd\
+/home/aa001\
+aa001@pe15:~$ cat TEXAS/sports.txt\
+Sports teams in Texas:\
+Dallas Cowboys (NFL Football) \
+NBA:\
+NHL:\
+NFL:\
+aa001@pe15:~$ pwd\
+/home/aa001\
+aa001@pe15:~$ cd TEXAS\
+aa001@pe15:~/TEXAS$ ls\
+cats  FOODS  info.txt  sports.txt\
+aa001@pe15:~/TEXAS$ rm cats\
+aa001@pe15:~/TEXAS$ ls\
+FOODS  info.txt  sports.txt\
+aa001@pe15:~/TEXAS$ rm info.txt\
+aa001@pe15:~/TEXAS$ ls\
+FOODS  sports.txt\
+aa001@pe15:~/TEXAS$ rm FOODS\
+rm: cannot remove 'FOODS': Is a directory\
+aa001@pe15:~/TEXAS$ rmdir FOODS\
+rmdir: failed to remove 'FOODS': Directory not empty\
+aa001@pe15:~/TEXAS$ mkdir TEST2\
+aa001@pe15:~/TEXAS$ ls\
+FOODS  sports.txt  TEST2\
+aa001@pe15:~/TEXAS$ cd TEST2\
+aa001@pe15:~/TEXAS/TEST2$ ls\
+aa001@pe15:~/TEXAS/TEST2$ cd ..\
+aa001@pe15:~/TEXAS$ ls\
+FOODS  sports.txt  TEST2\
+aa001@pe15:~/TEXAS$ rmdir TEST2\
+aa001@pe15:~/TEXAS$ ls\
+FOODS  sports.txt\
+aa001@pe15:~/TEXAS$ rmdir -r FOODS\
+rmdir: invalid option -- 'r'\
+Try 'rmdir --help' for more information.\
+aa001@pe15:~/TEXAS$ rmdir -R FOODS\
+rmdir: invalid option -- 'R'\
+Try 'rmdir --help' for more information.\
+aa001@pe15:~/TEXAS$ rm -r FOODS\
+aa001@pe15:~/TEXAS$ ls\
+sports.txt\
+aa001@pe15:~/TEXAS$ #d\
+aa001@pe15:~/TEXAS$ ls\
+sports.txt\
+aa001@pe15:~/TEXAS$ pwd\
+/home/aa001/TEXAS\
+aa001@pe15:~/TEXAS$ cd\
+aa001@pe15:~$ pwd\
+/home/aa001\
+aa001@pe15:~$ cd TEXAS\
+aa001@pe15:~/TEXAS$ ls\
+sports.txt\
+aa001@pe15:~/TEXAS$ vi sports.txt\
+aa001@pe15:~/TEXAS$ }

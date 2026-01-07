@@ -1,0 +1,123 @@
+#!/bin/bash
+
+while true; do
+	echo -e "Type 1 to record a Student's Name and Grade"
+	echo -e "Type 2 to Search a Student's NAME and Grade"
+	echo -e "Type 3 to Quit Enter, If not type  1 or 2: \c"
+	read USERSEARCH
+
+	case $USERSEARCH in
+
+1)
+	echo -e "Enter Student's name: \c"
+	read STUDENTNAME
+	echo -e "Enter Student's Score: \c"
+	read STUDENTSCORE
+
+	if [[ $STUDENTSCORE -eq 100 ]]; then
+		GRADE="A: I UNDERSTAND"
+	elif [[ $STUDENTSCORE -eq 99 ]]; then
+		GRADE="A: I UNDERSTAND "
+	elif [[ $STUDENTSCORE -eq 98 ]]; then
+		GRADE="A: I CAN MOVE ON! "
+	elif [[ $STUDENTSCORE -eq 97 ]]; then
+		GRADE="A: I CAN MOVE ON!"
+	elif [[ $STUDENTSCORE -eq 96 ]]; then
+		GRADE="A: MY WORK IS NEAT AND COMPLETE!"
+	elif [[ $STUDENTSCORE -eq 95 ]]; then
+		GRADE="A: MY WORK IS NEAT AND COMPLETE!"
+	elif [[ $STUDENTSCORE -eq 94 ]]; then
+		GRADE="A: EXCELLENT WORK!"
+	elif [[ $STUDENTSCORE -eq 93 ]]; then
+		GRADE="A: EXCELLENT WORK!"
+	elif [[ $STUDENTSCORE -eq 92 ]]; then
+		GRADE="B: GOOD WORK"
+	elif [[ $STUDENTSCORE -eq 91 ]]; then
+		GRADE="B: GOOD WORK "
+	elif [[ $STUDENTSCORE -eq 90 ]]; then
+		GRADE="B: MY WORK IS MOSTLY NEAT AND COMPLETE"
+	elif [[ $STUDENTSCORE -eq 89 ]]; then
+		GRADE="B: MY WORK IS MOSTLY NEAT AND COMPLETE "
+	elif [[ $STUDENTSCORE -eq 88 ]]; then
+		GRADE="B: I NEED A LITTLE MORE PRACTICE"
+	elif [[ $STUDENTSCORE -eq 87 ]]; then
+                GRADE="B: I NEED A LITTLE MORE PRACTICE"
+	elif [[ $STUDENTSCORE -eq 86 ]]; then
+		GRADE="B: I MOSTLY UNDERSTAND"
+	elif [[ $STUDENTSCORE -eq 85 ]]; then
+		GRADE="B: I MOSTLY UNDERSTAND"
+	elif [[ $STUDENTSCORE -eq 84 ]]; then
+		GRADE="C: I KNOW SOME, BUT NEED MORE SUPPORT/PRACTICE"
+	elif [[ $STUDENTSCORE -eq 83 ]]; then
+		GRADE="C: I KNOW SOME, BUT NEED MORE SUPPORT/PRACTICE"
+	elif [[ $STUDENTSCORE -eq 82 ]]; then
+		GRADE="C: MY WORK ISN'T AS NEAT OR COMPLETE AS IT NEEDS TO BE "
+	elif [[ $STUDENTSCORE -eq 81 ]]; then
+		GRADE="C: MY WORK ISN'T AS NEAT OR COMPLETE AS IT NEEDS TO BE"
+	elif [[ $STUDENTSCORE -eq 80 ]]; then
+		GRADE="C: I NEED TO ASK MORE QUESTIONS"
+	elif [[ $STUDENTSCORE -eq 79 ]]; then
+		GRADE="C: I NEED TO ASK MORE QUESTIONS"
+	elif [[ $STUDENTSCORE -eq 78 ]]; then
+		GRADE="C: OKAY WORK"
+	elif [[ $STUDENTSCORE -eq 77 ]]; then
+		GRADE="C: OKAY WORK "
+	elif [[ $STUDENTSCORE -eq 76 ]]; then
+		GRADE="D: I NEED MORE HELP FROM MY TEACHER."
+	elif [[ $STUDENTSCORE -eq 75 ]]; then
+		GRADE="D: I NEED MORE HELP FROM MY TEACHER."
+	elif [[ $STUDENTSCORE -eq 74 ]]; then
+		GRADE="D: I NEED TO PRACTICE AT HOME."
+	elif [[ $STUDENTSCORE -eq 73 ]]; then
+		GRADE="D: WORK DOES NOT MEET 2ND GRADE EXPECTATIONS."
+	elif [[ $STUDENTSCORE -eq 72 ]]; then
+		GRADE="D: WORK DOES NOT MEET 2ND GRADE EXPECTATIONS."
+	elif [[ $STUDENTSCORE -eq 71 ]]; then
+		GRADE="D: I AM NOT READY TO MOVE ON."
+	elif [[ $STUDENTSCORE -eq 70 ]]; then
+		GRADE="D: I AM NOT READY TO MOVE ON."
+	elif [[ $STUDENTSCORE -eq 69 ]]; then
+		GRADE="F: I DO NOT UNDERSTAND."
+	elif [[ $STUDENTSCORE -eq 68 ]]; then
+                GRADE="F: I DO NOT UNDERSTAND."
+	elif [[ $STUDENTSCORE -eq 67 ]]; then
+                GRADE="F: I NEED MORE HELP."
+	elif [[ $STUDENTSCORE -eq 66 ]]; then
+                GRADE="F: I NEED MORE HELP."
+	elif [[ $STUDENTSCORE -eq 65 ]]; then
+                GRADE="F: WORK DOES NOT MEET 2ND GRADE EXPECTATIONS."
+	elif [[ $STUDENTSCORE -eq 64 ]]; then
+                GRADE="F: WORK DOES NOT MEET 2ND GRADE EXPECTATIONS."
+	elif [[ $STUDENTSCORE -eq 63 ]]; then
+                GRADE="F: WORK DOES NOT MEET 2ND GRADE EXPECTATIONS."
+	elif [[ $STUDENTSCORE -eq 62 ]]; then
+                GRADE="F: WORK MAY B E INCOMPLETE."
+	elif [[ $STUDENTSCORE -eq 61 ]]; then
+                GRADE="F: WORK MAY B E INCOMPLETE."
+
+
+
+
+
+
+fi
+
+
+        echo "$STUDENTNAME | $STUDENTSCORE | $GRADE" >> GRADER.txt
+        ;;
+
+ 2)
+
+        echo -e "Enter the Students name you want to search: \c"
+        read SEARCH
+        grep "$SEARCH" GRADER.txt
+        ;;
+
+ 3)
+
+        echo "Goodbye!"
+        exit 0
+        ;;
+
+esac
+done

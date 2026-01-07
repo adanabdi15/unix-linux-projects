@@ -1,0 +1,109 @@
+Script started on 2023-10-04 16:34:03-04:00 [TERM="xterm-256color" TTY="/dev/pts/110" COLUMNS="80" LINES="24"]
+aa001@pe15:~$ mv typescript Projecttypescript5[K104
+aa001@pe15:~$ date;who
+# ";" represents command termination in table 2-7
+Wed 04 Oct 2023 04:34:28 PM EDT
+ldavid   pts/3        2023-09-13 17:08 (96.237.52.5)
+zkrasnow pts/8        2023-10-03 20:52 (172.105.154.130)
+hdeblois pts/11       2023-10-02 11:57 (158.121.33.108)
+offner   pts/10       2023-09-19 15:00 (73.143.153.49)
+rickm    pts/12       2023-09-23 13:24 (24.147.137.97)
+ldavid   pts/14       2023-08-31 21:59 (96.237.52.5)
+ldavid   pts/13       2023-08-31 21:28 (96.237.52.5)
+ldavid   pts/15       2023-08-31 22:30 (96.237.52.5)
+aravind  pts/18       2023-10-04 16:05 (73.16.131.207)
+ldavid   pts/19       2023-09-22 20:26 (96.237.52.5)
+ldavid   pts/20       2023-08-31 22:36 (96.237.52.5)
+ldavid   pts/21       2023-09-21 07:04 (158.121.33.158)
+ldavid   pts/22       2023-09-08 10:31 (96.237.52.5)
+ldavid   pts/23       2023-09-21 07:06 (158.121.33.158)
+ckelly   pts/24       2023-10-04 16:05 (158.121.33.233)
+ericpham pts/25       2023-02-13 00:12 (tmux(3955915).%0)
+ldavid   pts/26       2023-09-07 17:07 (96.237.52.5)
+ldavid   pts/29       2023-09-21 07:09 (158.121.33.158)
+jgibson  pts/36       2023-10-04 09:58 (108.20.76.111)
+ldavid   pts/40       2023-10-04 10:02 (158.121.33.158)
+ldavid   pts/41       2023-09-08 11:45 (96.237.52.5)
+tislam   pts/50       2023-09-21 00:06 (tmux(985490).%4)
+ldavid   pts/51       2023-09-21 07:13 (158.121.33.158)
+ldavid   pts/54       2023-09-29 11:24 (96.237.52.5)
+teebanj  pts/55       2023-09-29 12:50 (73.4.129.241)
+ghoffman pts/57       2023-10-04 10:06 (130.44.154.89)
+tislam   pts/60       2023-09-20 19:25 (tmux(985490).%3)
+ldavid   pts/56       2023-09-21 07:15 (158.121.33.158)
+ldavid   pts/62       2023-09-21 07:16 (158.121.33.158)
+aa001    pts/37       2023-10-04 16:31 (172.21.240.1)
+rouilj   pts/61       2023-10-03 08:46 (98.118.36.197)
+getchell pts/64       2023-10-04 16:27 (174.242.71.215)
+tislam   pts/66       2023-10-03 19:42 (tmux(985490).%5)
+ldavid   pts/67       2023-09-25 09:35 (158.121.33.158)
+ldavid   pts/68       2023-09-18 21:22 (96.237.52.5)
+deniseng pts/69       2023-10-04 16:13 (172.21.208.193)
+jason240 pts/70       2023-10-04 16:28 (98.110.178.161)
+ldavid   pts/74       2023-10-04 10:51 (158.121.33.158)
+jason240 pts/82       2023-10-04 14:53 (98.110.178.161)
+qasim    pts/83       2023-10-04 13:07 (10.200.5.152)
+ldavid   pts/84       2023-09-21 11:27 (158.121.33.158)
+jason240 pts/91       2023-10-04 15:21 (98.110.178.161)
+tislam   pts/92       2023-09-20 11:32 (tmux(985490).%0)
+jdonahue pts/93       2023-10-04 16:20 (172.21.182.54)
+sreardon pts/78       2023-10-04 15:38 (149.57.16.46)
+kkfletch pts/79       2023-10-03 09:27 (172.18.23.172)
+amiya123 pts/80       2023-10-04 13:07 (174.169.102.156)
+ghoffman pts/81       2023-10-04 11:17 (130.44.154.89)
+wayan101 pts/85       2023-10-04 16:28 (172.21.133.176)
+brian012 pts/86       2023-10-04 16:14 (172.22.176.17)
+aarzoo13 pts/87       2023-10-04 14:27 (10.200.5.174)
+aryan557 pts/88       2023-10-04 16:14 (172.21.190.171)
+aa001    pts/110      2023-10-04 16:34 (172.21.152.69)
+mbakshi  pts/108      2023-10-04 16:15 (172.21.161.76)
+roots313 pts/109      2023-10-04 16:19 (10.200.6.70)
+hlanda   pts/114      2023-10-04 16:15 (172.21.165.7)
+xiaowu   pts/113      2023-10-04 16:15 (172.21.243.128)
+valerie  pts/115      2023-10-04 16:15 (172.21.239.211)
+ayomide  pts/117      2023-10-04 16:16 (172.22.189.82)
+dsantana pts/118      2023-10-04 16:16 (172.21.175.130)
+arkg     pts/116      2023-10-04 16:15 (10.200.6.74)
+jason240 pts/120      2023-10-04 16:17 (98.110.178.161)
+shall001 pts/122      2023-10-04 16:17 (172.21.162.198)
+dhagman  pts/685      2023-04-24 07:07 (tmux(1801381).%1)
+dhagman  pts/672      2023-04-24 07:07 (tmux(1801381).%0)
+aa001@pe15:~$ echo this OK
+this OK
+#echo print text to the terminal screen
+aa001@pe15:~$ #the command above displays the message on the terminal screen
+aa001@pe15:~$ echo Dont do this [K[K[K[K[K[K[K[K[K[K't do this 
+> ^C
+#I guess the reason it didn't output was because linux thinks you're telling it no to do anything
+aa001@pe15:~$ echo don't do this
+> ^C
+aa001@pe15:~$ echo do[K[KDon't do this 
+> ^C
+aa001@pe15:~$ echo "dont do this [K" 
+dont do this
+#reason this outputted text because you used "" 
+aa001@pe15:~$ echo Don/;[K[K|[K
+Don
+aa001@pe15:~$ echo Dont[K\'t do this 
+Don't do this
+# same thing is output because / " ' are metacharacter quotes 
+aa001@pe15:~$ echo $SHELL
+/bin/bash
+aa001@pe15:~$ echo $TEST
+#Displays nothing maybe because you're not testing anything. 
+aa001@pe15:~$ echo you [K[K[K[KYou have $4.50
+You have .50
+#linux thinks you're trying to use a variable, a variable name can't start with a number.
+aa001@pe15:~$ #because I used the [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K$[Kecho 'You have $4.50'
+You have $4.50
+#it printed because linux sees it as a string.
+aa001@pe15:~$ echo "You have $4.50"
+You have .50
+#linux sees $4 as a special variable, so if you use echo "|$4.50" it will print. 
+aa001@pe15:~$ echo My name is 'Whoami"[K'[K[K[K[K[K[K[Kwhoami'
+My name is whoami
+#no matter what metacharacter quotes it will print. 
+aa001@pe15:~$ exot[K[Kit 
+exit
+
+Script done on 2023-10-04 16:39:33-04:00 [COMMAND_EXIT_CODE="0"]

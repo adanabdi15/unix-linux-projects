@@ -1,0 +1,40 @@
+Script started on 2023-10-06 22:57:02-04:00 [TERM="xterm-256color" TTY="/dev/pts/80" COLUMNS="80" LINES="24"]
+aa001@pe15:~$ mv typs[Kescript project3--6
+aa001@pe15:~$ pwd
+/home/aa001
+aa001@pe15:~$ ls *
+#ls * list files inside th
+Command 'ls*' not found, did you mean:
+
+  command 'ls' from deb coreutils (8.30-3ubuntu2)
+  command 'lsh' from deb lsh-client (2.1-12build3)
+  command 'lsc' from deb livescript (1.6.0+dfsg-1)
+  command 'lsm' from deb lsm (1.0.4-1)
+  command 'lsw' from deb suckless-tools (44-1)
+
+Try: apt install <deb name>
+
+aa001@pe15:~$ ls sample
+ls: cannot access 'sample': No such file or directory
+aa001@pe15:~$ ls sample??
+ls: cannot access 'sample??': No such file or directory
+aa001@pe15:~$ ls sample[13]
+sample1  sample3
+aa001@pe15:~$ ls sample[!13}[K]
+sample2
+aa001@pe15:~$ ls sample [1-3]
+ls: cannot access 'sample': No such file or directory
+ls: cannot access '[1-3]': No such file or directory
+aa001@pe15:~$ ls sample1[K[1-][K3]
+sample1  sample2  sample3
+aa001@pe15:~$ ls sample [K[!1-3]
+ls: cannot access 'sample[!1-3]': No such file or directory
+aa001@pe15:~$ ls sample [!2[K1-3}[K]
+ls: cannot access 'sample': No such file or directory
+ls: cannot access '[!1-3]': No such file or directory
+aa001@pe15:~$ ls sample[1-[K[K!1-3]
+ls: cannot access 'sample[!1-3]': No such file or directory
+aa001@pe15:~$ exit
+exit
+
+Script done on 2023-10-06 23:00:50-04:00 [COMMAND_EXIT_CODE="2"]

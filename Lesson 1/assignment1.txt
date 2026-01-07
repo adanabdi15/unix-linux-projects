@@ -1,0 +1,131 @@
+Script started on 2023-09-13 02:47:20-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+aa001@pe15:~$ cd t[KTEXAS
+aa001@pe15:~/TEXAS$ CD # Go into the directory you created. 
+CD: command not found
+aa001@pe15:~/TEXAS$ cd 
+aa001@pe15:~$ cd TEXAS@[K2
+bash: cd: TEXAS2: No such file or directory
+aa001@pe15:~$ M[Kmkdir Te[KEXASs[K2
+aa001@pe15:~$ ls #list files and folders in your directory. 
+AfricanKing	 Africa.txt  Cash.txt  it114  TEXAS   typescript
+AfricanKinginfo  Cashfolder  it110     it244  TEXAS2
+aa001@pe15:~$ CD[K[Kcd TEXAS@[K2
+aa001@pe15:~/TEXAS2$ sports.tx[K[K[K[K2[Ks2.txt
+sports2.txt: command not found
+aa001@pe15:~/TEXAS2$ touch sports2.txt #create file 
+aa001@pe15:~/TEXAS2$ ls
+sports2.txt
+aa001@pe15:~/TEXAS2$ vi sports2.txt #edit contents in file 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"sports2.txt" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll"sports2.txt" 0L, 0C[1;1H[?25h[?25l[24;53Hs[1;1H[24;53H [1;1H[24;53Hcl[1;1H[24;53H  [1;1H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?25h[?25li[24;63H1,2[1;2H[?25h[?25l[1;1H[K[24;65H1[1;1H[?25h[?25lS[24;65H2[1;2H[?25h[?25lP[24;65H3[1;3H[?25h[?25lo[24;65H4[1;4H[?25h[?25lr[24;65H5[1;5H[?25h[?25lt[24;65H6[1;6H[?25h[?25l[1;5H[K[24;65H5[1;5H[?25h[?25l[1;4H[K[24;65H4[1;4H[?25h[?25l[1;3H[K[24;65H3[1;3H[?25h[?25l[1;2H[K[24;65H2[1;2H[?25h[?25lp[24;65H3[1;3H[?25h[?25lo[24;65H4[1;4H[?25h[?25lr[24;65H5[1;5H[?25h[?25lt[24;65H6[1;6H[?25h[?25ls[24;65H7[1;7H[?25h[?25l[24;65H8[1;8H[?25h[?25lt[24;65H9[1;9H[?25h[?25le[24;65H10[1;10H[?25h[?25la[24;66H1[1;11H[?25h[?25lm[24;66H2[1;12H[?25h[?25ls[24;66H3[1;13H[?25h[?25l[24;66H4[1;14H[?25h[?25li[24;66H5[1;15H[?25h[?25ln[24;66H6[1;16H[?25h[?25l[24;66H7[1;17H[?25h[?25lT[24;66H8[1;18H[?25h[?25lE[24;66H9[1;19H[?25h[?25l[1;18H[K[24;66H8[1;18H[?25h[?25le[24;66H9[1;19H[?25h[?25lx[24;65H20[1;20H[?25h[?25la[24;66H1[1;21H[?25h[?25ls[24;66H2[1;22H[?25h[?25l[24;66H3[1;23H[?25h[?25l[24;66H2[1;22H[?25h[?25l:[24;66H3[1;23H[?25h[?25l[2;1H[K[24;63H2,1 [2;1H[?25h[?25lH[24;65H2[2;2H[?25h[?25lo[24;65H3[2;3H[?25h[?25lu[24;65H4[2;4H[?25h[?25l[2;3H[K[24;65H3[2;3H[?25h[?25lu[24;65H4[2;4H[?25h[?25ls[24;65H5[2;5H[?25h[?25lt[24;65H6[2;6H[?25h[?25lo[24;65H7[2;7H[?25h[?25ln[24;65H8[2;8H[?25h[?25l[24;65H9[2;9H[?25h[?25lR[24;65H10[2;10H[?25h[?25lo[24;66H1[2;11H[?25h[?25lc[24;66H2[2;12H[?25h[?25lk[24;66H3[2;13H[?25h[?25le[24;66H4[2;14H[?25h[?25lt[24;66H5[2;15H[?25h[?25ls[24;66H6[2;16H[?25h[?25l[24;66H7[2;17H[?25h[?25l([24;66H8[2;18H[?25h[?25lN[24;66H9[2;19H[?25h[?25lB[24;65H20[2;20H[?25h[?25lA[24;66H1[2;21H[?25h[?25l[24;66H2[2;22H[?25h[?25l[24;66H1[2;21H[?25h[?25l[2;20H[K[24;66H0[2;20H[?25h[?25l[2;19H[K[24;65H19[2;19H[?25h[?25l[2;18H[K[24;66H8[2;18H[?25h[?25lB[24;66H9[2;19H[?25h[?25la[24;65H20[2;20H[?25h[?25ls[24;66H1[2;21H[?25h[?25lk[24;66H2[2;22H[?25h[?25le[24;66H3[2;23H[?25h[?25lt[24;66H4[2;24H[?25h[?25lb[24;66H5[2;25H[?25h[?25la[24;66H6[2;26H[?25h[?25ll[24;66H7[2;27H[?25h[?25ll[24;66H8[2;28H[?25h[?25l[2;17H[46m([10C)[m[24;66H9[2;29H[?25h[?25l[2;17H([10C)[3;1H[K[24;63H3,1 [3;1H[?25h[?25lN[24;65H2[3;2H[?25h[?25lF[24;65H3[3;3H[?25h[?25lL[24;65H4[3;4H[?25h[?25l:[24;65H5[3;5H[?25h[?25l[4;1H[K[24;63H4,1[4;1H[?25h[?25lN[24;65H2[4;2H[?25h[?25lH[24;65H3[4;3H[?25h[?25lL[24;65H4[4;4H[?25h[?25l:[24;65H5[4;5H[?25h[?25l[5;1H[K[24;63H5,1[5;1H[?25h[?25lM[24;65H2[5;2H[?25h[?25lB[24;65H3[5;3H[?25h[?25l[5;2H[K[24;65H2[5;2H[?25h[?25lL[24;65H3[5;3H[?25h[?25lB[24;65H4[5;4H[?25h[?25l:[24;65H5[5;5H[?25h[24;1H[K[5;4H[?25l[24;53H^[[5;4H[24;53H  [5;5H[24;63H5,4[11CAll[5;4H[?25h[?25l[24;53H:[5;4H[24;53H[K[24;1H:[?2004h[?25hwq![?25l[?2004l"sports2.txt" 5L, 67C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0taa001@pe15:~/TEXAS2$ cat sports2.txt #view contents in file
+Sports teams in Texas:
+Houston Rockets (Basketball)
+NFL:
+NHL:
+MLB:
+aa001@pe15:~/TEXAS2$ ls
+sports2.txt
+aa001@pe15:~/TEXAS2$ vi i[K[K[K[Ktouch info2.txt
+aa001@pe15:~/TEXAS2$ ls
+info2.txt  sports2.txt
+aa001@pe15:~/TEXAS2$ vi info2.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"info2.txt" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll"info2.txt" 0L, 0C[1;1H[?25h[?25l[24;53Hi[1;1H[24;53H [1;1H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?25h[?25lT[24;63H1,2[1;2H[?25h[?25lh[24;65H3[1;3H[?25h[?25le[24;65H4[1;4H[?25h[?25l[24;65H5[1;5H[?25h[?25lc[24;65H6[1;6H[?25h[?25la[24;65H7[1;7H[?25h[?25lp[24;65H8[1;8H[?25h[?25l[1;7H[K[24;65H7[1;7H[?25h[?25l[1;6H[K[24;65H6[1;6H[?25h[?25l[1;5H[K[24;65H5[1;5H[?25h[?25lc[24;65H6[1;6H[?25h[?25lp[24;65H7[1;7H[?25h[?25la[24;65H8[1;8H[?25h[?25l[1;7H[K[24;65H7[1;7H[?25h[?25l[1;6H[K[24;65H6[1;6H[?25h[?25la[24;65H7[1;7H[?25h[?25lp[24;65H8[1;8H[?25h[?25li[24;65H9[1;9H[?25h[?25lt[24;65H10[1;10H[?25h[?25la[24;66H1[1;11H[?25h[?25ll[24;66H2[1;12H[?25h[?25l[24;66H3[1;13H[?25h[?25lo[24;66H4[1;14H[?25h[?25lf[24;66H5[1;15H[?25h[?25l[24;66H6[1;16H[?25h[?25lT[24;66H7[1;17H[?25h[?25le[24;66H8[1;18H[?25h[?25lx[24;66H9[1;19H[?25h[?25la[24;65H20[1;20H[?25h[?25ls[24;66H1[1;21H[?25h[?25l[24;66H2[1;22H[?25h[?25li[24;66H3[1;23H[?25h[?25ls[24;66H4[1;24H[?25h[?25l[24;66H5[1;25H[?25h[?25lH[24;66H6[1;26H[?25h[?25lo[24;66H7[1;27H[?25h[?25lu[24;66H8[1;28H[?25h[?25ls[24;66H9[1;29H[?25h[?25lt[24;65H30[1;30H[?25h[?25lo[24;66H1[1;31H[?25h[?25ln[24;66H2[1;32H[?25h[?25l[24;66H3[1;33H[?25h[?25l[24;66H2[1;32H[?25h[?25l![24;66H3[1;33H[?25h[?25l[24;66H4[1;34H[?25h[?25lY[24;66H5[1;35H[?25h[?25la[24;66H6[1;36H[?25h[?25ly[24;66H7[1;37H[?25h[?25l![24;66H8[1;38H[?25h[24;1H[K[1;37H[?25l[24;53H^[[1;37H[24;53H  [1;38H[24;63H1,37[10CAll[1;37H[?25h[?25l[24;53H:[1;37H[24;53H[K[24;1H:[?2004h[?25hwq![?25l[?2004l"info2.txt" 1L, 38C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0taa001@pe15:~/TEXAS2$ cat info.[K2.txc[Kt
+The capital of Texas is Houston! Yay!
+aa001@pe15:~/TEXAS2$ mkdir FOODs[KS2 #create directory 
+aa001@pe15:~/TEXAS2$ ls
+FOODS2	info2.txt  sports2.txt
+aa001@pe15:~/TEXAS2$ ls -l
+total 12
+drwxr-xr-x 2 aa001 ugrad 4096 Sep 13 02:55 FOODS2
+-rw-r--r-- 1 aa001 ugrad   38 Sep 13 02:54 info2.txt
+-rw-r--r-- 1 aa001 ugrad   67 Sep 13 02:50 sports2.txt
+aa001@pe15:~/TEXAS2$ ls
+FOODS2	info2.txt  sports2.txt
+aa001@pe15:~/TEXAS2$ cd GOOD[K[K[K[KFOODS2
+aa001@pe15:~/TEXAS2/FOODS2$ touch texas[Ks_foods2.txt
+aa001@pe15:~/TEXAS2/FOODS2$ ls
+texas_foods2.txt
+aa001@pe15:~/TEXAS2/FOODS2$ vi texas_[K[K[Ks[Kas-[K_foods2.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"texas_foods2.txt" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll"texas_foods2.txt" 0L, 0C[1;1H[?25h[?25l[24;53Hi[1;1H[24;53H [1;1H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?25h[?25lT[24;63H1,2[1;2H[?25h[?25ly[24;65H3[1;3H[?25h[?25lp[24;65H4[1;4H[?25h[?25le[24;65H5[1;5H[?25h[?25ls[24;65H6[1;6H[?25h[?25l[24;65H7[1;7H[?25h[?25lo[24;65H8[1;8H[?25h[?25lf[24;65H9[1;9H[?25h[?25l[24;65H10[1;10H[?25h[?25lf[24;66H1[1;11H[?25h[?25lo[24;66H2[1;12H[?25h[?25lo[24;66H3[1;13H[?25h[?25ld[24;66H4[1;14H[?25h[?25li[24;66H5[1;15H[?25h[?25ln[24;66H6[1;16H[?25h[?25l[24;66H7[1;17H[?25h[?25l[24;66H6[1;16H[?25h[?25l[1;15H[K[24;66H5[1;15H[?25h[?25l[1;14H[K[24;66H4[1;14H[?25h[?25l[1;13H[K[24;66H3[1;13H[?25h[?25ld[24;66H4[1;14H[?25h[?25li[24;66H5[1;15H[?25h[?25l[1;14H[K[24;66H4[1;14H[?25h[?25l[24;66H5[1;15H[?25h[?25li[24;66H6[1;16H[?25h[?25ln[24;66H7[1;17H[?25h[?25l[24;66H8[1;18H[?25h[?25lt[24;66H9[1;19H[?25h[?25le[24;65H20[1;20H[?25h[?25lx[24;66H1[1;21H[?25h[?25la[24;66H2[1;22H[?25h[?25ls[24;66H3[1;23H[?25h[?25l[2;1H[K[24;63H2,1 [2;1H[?25h[?25l1[24;65H2[2;2H[?25h[?25l.[24;65H3[2;3H[?25h[?25lP[24;65H4[2;4H[?25h[?25li[24;65H5[2;5H[?25h[?25lz[24;65H6[2;6H[?25h[?25lz[24;65H7[2;7H[?25h[?25la[24;65H8[2;8H[?25h[?25l[3;1H[K[24;63H3,1[3;1H[?25h[?25l2[24;65H2[3;2H[?25h[?25l.[24;65H3[3;3H[?25h[?25l[4;1H[K[24;63H4,1[4;1H[?25h[?25l3[24;65H2[4;2H[?25h[?25l.[24;65H3[4;3H[?25h[?25l[5;1H[K[24;63H5,1[5;1H[?25h[?25l4[24;65H2[5;2H[?25h[?25l.[24;65H3[5;3H[?25h[?25l[6;1H[K[24;63H6,1[6;1H[?25h[?25l5[24;65H2[6;2H[?25h[?25l.[24;65H3[6;3H[?25h[?25l[24;63H5[5;3H[?25h[?25l[24;63H4[4;3H[?25h[?25l[24;63H3[3;3H[?25h[?25lf[24;65H4[3;4H[?25h[?25l[3;3H[K[24;65H3[3;3H[?25h[?25lF[24;65H4[3;4H[?25h[?25lr[24;65H5[3;5H[?25h[?25li[24;65H6[3;6H[?25h[?25le[24;65H7[3;7H[?25h[?25ls[24;65H8[3;8H[?25h[?25l[4;23r[4;1H[L[1;24r[24;63H[K[24;63H4,1[11CAll[4;1H[?25h[?25l[3;23r[23;1H
+[1;24r[3;1H2.Fries[23;1H[94m~                                                                               [m[24;63H[K[24;63H3,8[11CAll[3;8H[?25h[?25l[24;63H4,3[4;3H[?25h[?25lB[24;65H4[4;4H[?25h[?25lu[24;65H5[4;5H[?25h[?25lr[24;65H6[4;6H[?25h[?25lg[24;65H7[4;7H[?25h[?25le[24;65H8[4;8H[?25h[?25lr[24;65H9[4;9H[?25h[?25ls[24;65H10[4;10H[?25h[?25l[24;63H5,3 [5;3H[?25h[?25lS[24;65H4[5;4H[?25h[?25la[24;65H5[5;5H[?25h[?25ll[24;65H6[5;6H[?25h[?25la[24;65H7[5;7H[?25h[?25ld[24;65H8[5;8H[?25h[?25ls[24;65H9[5;9H[?25h[?25l[24;63H6,3[6;3H[?25h[?25lS[24;65H4[6;4H[?25h[?25lo[24;65H5[6;5H[?25h[?25ld[24;65H6[6;6H[?25h[?25la[24;65H7[6;7H[?25h[24;1H[K[6;6H[?25l[24;53H^[[6;6H[24;53H  [6;7H[24;63H6,6[11CAll[6;6H[?25h[?25l[24;53H:[6;6H[24;53H[K[24;1H:[?2004h[?25hwq![?25l[?2004l"texas_foods2.txt" 6L, 65C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0taa001@pe15:~/TEXAS2/FOODS2$ cat texas_foods.txt[K[K[K[K2.txt
+Types of food in texas
+1.Pizza
+2.Fries
+3.Burgers
+4.Salads
+5.Soda
+aa001@pe15:~/TEXAS2/FOODS2$ pwd #tell you the current directory.
+/home/aa001/TEXAS2/FOODS2
+aa001@pe15:~/TEXAS2/FOODS2$ cd ..#change directory above current directory. 
+aa001@pe15:~/TEXAS2$ ls
+FOODS2	info2.txt  sports2.txt
+aa001@pe15:~/TEXAS2$ cd ..
+aa001@pe15:~$ pwd
+/home/aa001
+aa001@pe15:~$ ls
+AfricanKing	 Africa.txt  Cash.txt  it114  TEXAS   typescript
+AfricanKinginfo  Cashfolder  it110     it244  TEXAS2
+aa001@pe15:~$ cdTEXA[K[K[K[K TEXAS2/FOODS2/sports2.txt[K[K[K[K[K[K[K[K[K[K[Ktexas_foods2..t[K[Ktxt
+bash: cd: TEXAS2/FOODS2/texas_foods2.txt: Not a directory
+aa001@pe15:~$ cd TEXAS2
+aa001@pe15:~/TEXAS2$ ls
+FOODS2	info2.txt  sports2.txt
+aa001@pe15:~/TEXAS2$ cd FOODS2
+aa001@pe15:~/TEXAS2/FOODS2$ ls
+texas_foods2.txt
+aa001@pe15:~/TEXAS2/FOODS2$ cd
+aa001@pe15:~$ pwd
+/home/aa001
+aa001@pe15:~$ cat Y[KTEXAS2/FOODS@[K2/texas_o[Kfoods2.txt
+Types of food in texas
+1.Pizza
+2.Fries
+3.Burgers
+4.Salads
+5.Soda
+aa001@pe15:~$ pwd
+/home/aa001
+aa001@pe15:~$ cat TES[KXAS/[K2?[K/sports2.txt
+Sports teams in Texas:
+Houston Rockets (Basketball)
+NFL:
+NHL:
+MLB:
+aa001@pe15:~$ cat TEXAS2/sports2.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kcat TEXAS2/FOODS2/texas_foods2.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kcat TEXAS2/sports2.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcd TEXAS2
+aa001@pe15:~/TEXAS2$ ls
+FOODS2	info2.txt  sports2.txt
+aa001@pe15:~/TEXAS2$ rm info2.txt
+aa001@pe15:~/TEXAS2$ ls
+FOODS2	sports2.txt
+aa001@pe15:~/TEXAS2$ rm f[KGO[K[KFOODS2
+rm: cannot remove 'FOODS2': Is a directory
+aa001@pe15:~/TEXAS2$ rmdir GOOD[K[K[K[KFOODS2
+rmdir: failed to remove 'FOODS2': Directory not empty
+aa001@pe15:~/TEXAS2$ mkdir t[KTEST#[K3
+aa001@pe15:~/TEXAS2$ ls
+FOODS2	sports2.txt  TEST3
+aa001@pe15:~/TEXAS2$ cd TEST3
+aa001@pe15:~/TEXAS2/TEST3$ ls
+aa001@pe15:~/TEXAS2/TEST3$ cd ..
+aa001@pe15:~/TEXAS2$ ls
+FOODS2	sports2.txt  TEST3
+aa001@pe15:~/TEXAS2$ rmdir TEST2
+rmdir: failed to remove 'TEST2': No such file or directory
+aa001@pe15:~/TEXAS2$ rmdir TEST3 #removes directory.
+aa001@pe15:~/TEXAS2$ ls
+FOODS2	sports2.txt
+aa001@pe15:~/TEXAS2$ rm -R[K[Kr[K-r[K[K[Kdir -r FOODS2
+rmdir: invalid option -- 'r'
+Try 'rmdir --help' for more information.
+aa001@pe15:~/TEXAS2$ rmdir -R f[KFOODs2
+rmdir: invalid option -- 'R'
+Try 'rmdir --help' for more information.
+aa001@pe15:~/TEXAS2$ rm -r FOODS2 #removes directory no matter what.  
+aa001@pe15:~/TEXAS2$ ls
+sports2.txt
+aa001@pe15:~/TEXAS2$ exit #exit script. 
+exit
+
+Script done on 2023-09-13 03:18:10-04:00 [COMMAND_EXIT_CODE="0"]

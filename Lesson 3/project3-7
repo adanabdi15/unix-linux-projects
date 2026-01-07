@@ -1,0 +1,82 @@
+Script started on 2023-10-04 17:42:27-04:00 [TERM="xterm-256color" TTY="/dev/pts/24" COLUMNS="80" LINES="24"]
+aa001@pe15:~$ mv typescript project3-7
+aa001@pe15:~$ grep "inn" sample1
+aa001@pe15:~$ grep "inn" sample1
+aa001@pe15:~$ grep "iinn" sample1
+aa001@pe15:~$ grep -v "inn"s[K sample 1[K[K1
+#This command will show all the lines from file sample1 that have the word "Inn". Grep is used to search for a specific word in a file. 
+My letter
+Hi there, I hope this day finds you well. 
+Unfortunately we were not able to make it to your dining 
+room this year while vacationing in Algonquin Park - I
+especially wished to see the model of the Highland Inn
+and the train station in the dining room. 
+I have been reading on the history of Algonquin Park but 
+no where could I find a description of where the Highland 
+Inn was originally located on cache lake. 
+if it is no trouble, could you kindly let me know such that 
+i need not wait until next year when i visit you lodge ?
+regards, 
+Mackenzie Elizabeth 
+P.S How were the flies and bears this year ?
+#grep -v display all the line that do not contain "inn"
+aa001@pe15:~$ grep "inn" sample1
+#it will show the case sensitive version of "inn" vs "Inn"
+aa001@pe15:~$ grep -1 "inn" sample1
+# -I ignores the case insensitivity. 
+aa001@pe15:~$ grep "i[KI' sampl[K[K[K[K[KSample1
+> ^C
+aa001@pe15:~$ grep "I'[K" sample [K1
+#this will show all the lines that contain "I"
+Hi there, I hope this day finds you well. 
+room this year while vacationing in Algonquin Park - I
+especially wished to see the model of the Highland Inn
+I have been reading on the history of Algonquin Park but 
+no where could I find a description of where the Highland 
+Inn was originally located on cache lake. 
+aa001@pe15:~$ grep "t.e" sample1
+#Will show line that contain "t" and a "e" in a word. 
+My letter
+Hi there, I hope this day finds you well. 
+especially wished to see the model of the Highland Inn
+and the train station in the dining room. 
+I have been reading on the history of Algonquin Park but 
+no where could I find a description of where the Highland 
+P.S How were the flies and bears this year ?
+aa001@pe15:~$ grep "w..e[K.e" sample1
+#will show letter that starts with "w" and the dots represents how many letters apart the letter "e" is in that same word. 
+Unfortunately we were not able to make it to your dining 
+room this year while vacationing in Algonquin Park - I
+especially wished to see the model of the Highland Inn
+no where could I find a description of where the Highland 
+aa001@pe15:~$ grep "^I" sample1
+#^I will show all the lines that start with the letter I 
+I have been reading on the history of Algonquin Park but 
+Inn was originally located on cache lake. 
+aa001@pe15:~$ grep "^I " sample1
+#^I " will show the line that starts with a "I" but include a space
+I have been reading on the history of Algonquin Park but 
+Inn was originally located on cache lake. 
+aa001@pe15:~$ grep "(we|next)" sample1
+aa001@pe15:~$ gr[K[Kgrep "(we|next)" [Ksample1
+^C
+aa001@pe15:~$ egrep "(we|next)" sample1
+# it will show whatever line has a we or a next
+Hi there, I hope this day finds you well. 
+Unfortunately we were not able to make it to your dining 
+i need not wait until next year when i visit you lodge ?
+P.S How were the flies and bears this year ?
+aa001@pe15:~$ grep "in[K[KInn$" sample1
+# Inn$ shows you whatever line ends with Inn
+especially wished to see the model of the Highland Inn
+aa001@pe15:~$ grep "?$" sample[K[Kle1
+#shows you whatever line ends with a question mark 
+i need not wait until next year when i visit you lodge ?
+P.S How were the flies and bears this year ?
+aa001@pe15:~$ grep "^S[K$" sample1
+#shows the start and end of a line where nothing is there. 
+
+aa001@pe15:~$ exit
+exit
+
+Script done on 2023-10-04 17:47:27-04:00 [COMMAND_EXIT_CODE="0"]

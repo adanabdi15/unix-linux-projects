@@ -1,0 +1,131 @@
+Script started on 2023-09-24 23:22:10-04:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="80" LINES="24"]
+aa001@pe15:~$ mv tyope[K[K[Kpescript PersonalFileSc[Ktcrut[K[K[K[K[K[KStructurescrit[Kpt
+aa001@pe15:~$ ls
+AfricanKing	 assignment1.txt  it110  PersonalFileStructurescript
+AfricanKinginfo  Cashfolder	  it114  TEXAS
+Africa.txt	 Cash.txt	  it244  TEXAS2
+aa001@pe15:~$ mkdir RootFolder
+aa001@pe15:~$ ls
+AfricanKing	 assignment1.txt  it110  PersonalFileStructurescript  TEXAS2
+AfricanKinginfo  Cashfolder	  it114  RootFolder
+Africa.txt	 Cash.txt	  it244  TEXAS
+aa001@pe15:~$ cd Rootfolder[K[K[K[K[K[KFolder
+aa001@pe15:~/RootFolder$ mkdir MyDocuments
+aa001@pe15:~/RootFolder$ ls
+MyDocuments
+aa001@pe15:~/RootFolder$ Mkdir MyVideos
+
+Command 'Mkdir' not found, did you mean:
+
+  command 'mkdir' from deb coreutils (8.30-3ubuntu2)
+
+Try: apt install <deb name>
+
+aa001@pe15:~/RootFolder$ ls
+MyDocuments
+aa001@pe15:~/RootFolder$ mkdir MyVideos
+aa001@pe15:~/RootFolder$ ls
+MyDocuments  MyVideos
+aa001@pe15:~/RootFolder$ mkdir MyPictures
+aa001@pe15:~/RootFolder$ ls
+MyDocuments  MyPictures  MyVideos
+aa001@pe15:~/RootFolder$ cd MyDocuments
+aa001@pe15:~/RootFolder/MyDocuments$ M[Kmkdir Maths
+aa001@pe15:~/RootFolder/MyDocuments$ ls
+Maths
+aa001@pe15:~/RootFolder/MyDocuments$ mkdir English
+aa001@pe15:~/RootFolder/MyDocuments$ ls
+English  Maths
+aa001@pe15:~/RootFolder/MyDocuments$ M[Kmkdir ComputerScience
+aa001@pe15:~/RootFolder/MyDocuments$ ls
+ComputerScience  English  Maths
+aa001@pe15:~/RootFolder/MyDocuments$ touch Timetable.doc
+aa001@pe15:~/RootFolder/MyDocuments$ ls
+ComputerScience  English  Maths  Timetable.doc
+aa001@pe15:~/RootFolder/MyDocuments$ cd..
+cd..: command not found
+aa001@pe15:~/RootFolder/MyDocuments$ cd ..
+aa001@pe15:~/RootFolder$ cd Myvide[K[K[K[KVido[Keo[K[K[K[K[K[KyPictures
+aa001@pe15:~/RootFolder/MyPictures$ mkdir Photos
+aa001@pe15:~/RootFolder/MyPictures$ ls
+Photos
+aa001@pe15:~/RootFolder/MyPictures$ mkdir Catroons[K[K[K[K[K[Krtoons
+aa001@pe15:~/RootFolder/MyPictures$ ls
+Cartoons  Photos
+aa001@pe15:~/RootFolder/MyPictures$ cd Photos
+aa001@pe15:~/RootFolder/MyPictures/Photos$ touch sea.jpg
+aa001@pe15:~/RootFolder/MyPictures/Photos$ touch house.jpg
+aa001@pe15:~/RootFolder/MyPictures/Photos$ touchcat.[K[K[K[K cat.jpg
+aa001@pe15:~/RootFolder/MyPictures/Photos$ touch[K[K[K[K[Kls
+cat.jpg  house.jpg  sea.jpg
+aa001@pe15:~/RootFolder/MyPictures/Photos$ cd ..
+aa001@pe15:~/RootFolder/MyPictures$ cd Cartoons
+aa001@pe15:~/RootFolder/MyPictures/Cartoons$ ls
+aa001@pe15:~/RootFolder/MyPictures/Cartoons$ touch Micky[Key.png
+aa001@pe15:~/RootFolder/MyPictures/Cartoons$ ls
+Mickey.png
+aa001@pe15:~/RootFolder/MyPictures/Cartoons$ touch Bugs-B[Kbunny.png
+aa001@pe15:~/RootFolder/MyPictures/Cartoons$ ls
+Bugs-bunny.png	Mickey.png
+aa001@pe15:~/RootFolder/MyPictures/Cartoons$ cd..[K[K ..
+aa001@pe15:~/RootFolder/MyPictures$ ls
+Cartoons  Photos
+aa001@pe15:~/RootFolder/MyPictures$ cd l[K..
+aa001@pe15:~/RootFolder$ cd Mydoc[K[K[KDocuments
+aa001@pe15:~/RootFolder/MyDocuments$ ls
+ComputerScience  English  Maths  Timetable.doc
+aa001@pe15:~/RootFolder/MyDocuments$ cd Maths
+aa001@pe15:~/RootFolder/MyDocuments/Maths$ touch Primary-Nu[K[Knumbers.txt
+aa001@pe15:~/RootFolder/MyDocuments/Maths$ ls
+Primary-numbers.txt
+aa001@pe15:~/RootFolder/MyDocuments/Maths$ cd ..
+aa001@pe15:~/RootFolder/MyDocuments$ cd English
+aa001@pe15:~/RootFolder/MyDocuments/English$ touch Essay,d[K[K.doc
+aa001@pe15:~/RootFolder/MyDocuments/English$ cd ..
+aa001@pe15:~/RootFolder/MyDocuments$ cd ComputerScience 
+aa001@pe15:~/RootFolder/MyDocuments/ComputerScience$ touch Hello-world.py
+aa001@pe15:~/RootFolder/MyDocuments/ComputerScience$ touch Space-invader.py
+aa001@pe15:~/RootFolder/MyDocuments/ComputerScience$ touch Pacman.py
+aa001@pe15:~/RootFolder/MyDocuments/ComputerScience$ ls
+Hello-world.py	Pacman.py  Space-invader.py
+aa001@pe15:~/RootFolder/MyDocuments/ComputerScience$ cd ..
+aa001@pe15:~/RootFolder/MyDocuments$ ls
+ComputerScience  English  Maths  Timetable.doc
+aa001@pe15:~/RootFolder/MyDocuments$ cd ComputerScin[Kence 
+aa001@pe15:~/RootFolder/MyDocuments/ComputerScience$ ls
+Hello-world.py	Pacman.py  Space-invader.py
+aa001@pe15:~/RootFolder/MyDocuments/ComputerScience$ cd ..
+aa001@pe15:~/RootFolder/MyDocuments$ cd English
+aa001@pe15:~/RootFolder/MyDocuments/English$ ls
+Essay.doc
+aa001@pe15:~/RootFolder/MyDocuments/English$ cd ..
+aa001@pe15:~/RootFolder/MyDocuments$ cd Maths
+aa001@pe15:~/RootFolder/MyDocuments/Maths$ ls
+Primary-numbers.txt
+aa001@pe15:~/RootFolder/MyDocuments/Maths$ cd ..
+aa001@pe15:~/RootFolder/MyDocuments$ ls
+ComputerScience  English  Maths  Timetable.doc
+aa001@pe15:~/RootFolder/MyDocuments$ cd ..
+aa001@pe15:~/RootFolder$ ls
+MyDocuments  MyPictures  MyVideos
+aa001@pe15:~/RootFolder$ cd Myp[KPictures
+aa001@pe15:~/RootFolder/MyPictures$ ls
+Cartoons  Photos
+aa001@pe15:~/RootFolder/MyPictures$ cd ph[K[KPhotos
+aa001@pe15:~/RootFolder/MyPictures/Photos$ ls
+cat.jpg  house.jpg  sea.jpg
+aa001@pe15:~/RootFolder/MyPictures/Photos$ cd ..
+aa001@pe15:~/RootFolder/MyPictures$ cd Cartoons
+aa001@pe15:~/RootFolder/MyPictures/Cartoons$ ls
+Bugs-bunny.png	Mickey.png
+aa001@pe15:~/RootFolder/MyPictures/Cartoons$ cd ..
+aa001@pe15:~/RootFolder/MyPictures$ cd ..
+aa001@pe15:~/RootFolder$ c[Kcd ..
+aa001@pe15:~$ ls
+AfricanKing	 assignment1.txt  it110  PersonalFileStructurescript  TEXAS2
+AfricanKinginfo  Cashfolder	  it114  RootFolder
+Africa.txt	 Cash.txt	  it244  TEXAS
+aa001@pe15:~$ exit 
+exit
+
+Script done on 2023-09-24 23:30:45-04:00 [COMMAND_EXIT_CODE="0"]
